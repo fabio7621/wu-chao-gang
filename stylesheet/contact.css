@@ -1,0 +1,54 @@
+.section-contact-main {
+  width: 60%;
+  margin: auto;
+}
+.contact-us-title h3 {
+  font-size: 48px;
+  margin-bottom: 0.5em;
+  font-weight: 500;
+}
+.contact-us-title p {
+  font-size: 20px;
+  margin-bottom: 2em;
+}
+.contact-us-item span,
+.contact-us-title span {
+  color: red;
+}
+.contact-us-item {
+  font-size: 20px;
+  letter-spacing: 0.03em;
+}
+.section-contact-btn a {
+  display: block;
+  width: fit-content;
+  font-size: 20px;
+  padding: 0.8em 3em 0.8em 4em;
+  background-color: #2671aa;
+  color: #fff;
+  text-decoration: none;
+  margin: auto;
+  border-radius: 6px;
+}
+.section-contact-btn a svg {
+  margin-left: 1em;
+}
+@media (width<768px) {
+  .section-contact-main {
+    width: 83.333333%;
+  }
+  .contact-us-title h3 {
+    font-size: 24px;
+  }
+  .contact-us-title p {
+    font-size: 16px;
+    margin-bottom: 1.3em;
+    line-height: 1.6;
+  }
+  .contact-us-item {
+    font-size: 16px;
+  }
+  .section-contact-btn a {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,13 @@
+網頁版
+https://xd.adobe.com/view/24377848-918a-4ac0-9eb3-6769932ab8f9-7164/
+
+手機版
+https://xd.adobe.com/view/051098ea-66b3-4a8e-8199-3464d88e46bd-5043/
+
+英文字體
+https://fonts.google.com/specimen/Inter?query=Inter
+
+中文字體
+https://fonts.google.com/noto/specimen/Noto+Sans+TC?category=Sans+Serif,Monospace&subset=chinese-traditional&preview.text=%E9%97%9C%E6%96%BC&preview.text_type=custom
+
+https://fonts.google.com/noto/specimen/Noto+Serif+TC?preview.text=%E6%AB%BB%E8%8A%B1%E8%9D%A6&preview.text_type=custom

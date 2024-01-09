@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="亞隴食材企業有限公司" />
+    <meta name="description" content="亞隴食材企業有限公司" />
+    <title>五朝港水產</title>
+    <!-- 字體 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- BS-CSS    -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./stylesheet/bootstrap.css" />
+    <link rel="shortcut icon" href="./src/favicon.ico" />
+    <link rel="stylesheet" href="./stylesheet/reset.css" />
+    <link rel="stylesheet" href="./stylesheet/main.css" />
+    <link rel="stylesheet" href="./stylesheet/about.css" />
+    <link rel="stylesheet" href="./stylesheet/member.css" />
+    <link rel="stylesheet" href="./stylesheet/shopcart.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <!-- 裝飾線條 -->
+      <div class="top-colorline-item"></div>
+      <section class="top-navBar-main">
+        <div class="top-navBar-logo d-none d-md-none d-lg-flex">
+          <h1 style="line-height: 0">
+            <a class="top-navBar-logo-pic" href="./index.html">
+              <img src="./src/web/icon/logo.svg" alt="logo" />
+            </a>
+          </h1>
+        </div>
+        <!-- 右半邊 -->
+        <div class="top-navBar-right">
+          <div
+            class="top-right-memberCartSocial-main d-none d-md-none d-lg-flex"
+          >
+            <div class="top-right-mcs-box">
+              <a href="./login.html" class="top-right-mcs-item d-flex">
+                <div class="top-right-mcs-pic">
+                  <img src="./src/web/icon/login.svg" alt="會員" />
+                </div>
+                <p>會員專區</p>
+              </a>
+              <a href="./shopcart.html" class="top-right-mcs-item d-flex">
+                <div class="top-right-mcs-pic position-relative">
+                  <img src="./src/web/icon/shopping-cart.svg" alt="購物車" />
+                </div>
+                <div
+                  class="how-Much-Num d-flex justify-content-center align-content-center"
+                >
+                  <p>0</p>
+                </div>
+                <p>個商品</p>
+              </a>
+              <div class="top-right-social">
+                <a
+                  href="https://www.facebook.com/5seafood/?locale=zh_TW"
+                  class="top-right-social-item"
+                  target="_blank"
+                >
+                  <img src="./src/web/icon/fb.svg" alt="facebook" />
+                </a>
+                <a
+                  href="https://line.me/R/ti/p/@pmz0011y"
+                  class="top-right-social-item"
+                  target="_blank"
+                >
+                  <img src="./src/web/icon/line.svg" alt="line" />
+                </a>
+                <a
+                  href="https://www.instagram.com/umichen1/"
+                  class="top-right-social-item"
+                  target="_blank"
+                >
+                  <img src="./src/web/icon/ig.svg" alt="ig" />
+                </a>
+                <a
+                  href="https://5-seafood.blogspot.com/"
+                  class="top-right-social-item"
+                  target="_blank"
+                >
+                  <img src="./src/web/icon/blog.svg" alt="Blogger" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="top-scerhBar-main d-none d-md-none d-lg-flex">
+            <form class="top-scerhBar-box" action="">
+              <input
+                class="top-scerhBar-input"
+                type="text"
+                placeholder="請輸入關鍵字或產品名稱"
+              />
+              <button class="top-scerhBar-btn" type="submit">
+                <div class="top-scerhBar-btn-pic">
+                  <img src="./src/web/icon/search.svg" alt="放大鏡" />
+                </div>
+              </button>
+            </form>
+          </div>
+          <div class="top-navbar-right">
+            <nav class="navbar navbar-expand-lg">
+              <div class="container-fluid p-0">
+                <a
+                  class="navbar-brand logopic d-block d-md-block d-lg-none"
+                  href="./index.html"
+                >
+                  <img src="./src/web/icon/logo.svg" alt="logo" />
+                </a>
+
+                <button
+                  class="navbar-toggler position-relative"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNavDropdown"
+                  aria-controls="navbarNavDropdown"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <!-- 會員購物車 -->
+                  <div
+                    class="top-mbc-box d-flex align-items-center position-absolute"
+                  >
+                    <a href="./login.html" class="top-right-mcs-pic">
+                      <img src="./src/web/icon/login.svg" alt="會員" />
+                    </a>
+                    <a
+                      href="./shopcart.html"
+                      class="top-right-mcs-pic position-relative"
+                    >
+                      <img
+                        src="./src/web/icon/shopping-cart.svg"
+                        alt="購物車"
+                      />
+                    </a>
+                    <a href="./shopcart.html" class="how-Much-Num">
+                      <p>0</p>
+                    </a>
+                  </div>
+                  <!-- 漢堡 -->
+                  <div class="hb-btn-container">
+                    <input id="menu-toggle" type="checkbox" />
+                    <label class="menu-button-container" for="menu-toggle">
+                      <div class="menu-button"></div>
+                    </label>
+                  </div>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <div class="top-scerhBar-main d-flex d-md-flex d-lg-none">
+                    <form class="top-scerhBar-box" action="">
+                      <input
+                        class="top-scerhBar-input"
+                        type="text"
+                        placeholder="請輸入關鍵字或產品名稱"
+                      />
+                      <button class="top-scerhBar-btn" type="submit">
+                        <div class="top-scerhBar-btn-pic">
+                          <img src="./src/web/icon/search.svg" alt="放大鏡" />
+                        </div>
+                      </button>
+                    </form>
+                  </div>
+                  <ul class="navbar-nav top-navbar-menu">
+                    <li class="nav-item top-navbar-item">
+                      <a class="nav-link top-navbar-txt" href="about.html"
+                        >五朝港來源</a
+                      >
+                    </li>
+                    <li class="nav-item top-navbar-item">
+                      <a class="nav-link top-navbar-txt" href="./news.html"
+                        >最新消息</a
+                      >
+                    </li>
+                    <li class="nav-item top-navbar-item dropdown">
+                      <a
+                        class="nav-link top-navbar-txt dropdown-toggle"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        特色風味
+                      </a>
+                      <ul class="dropdown-menu top-nav-dropdown-body p-0 pt-2">
+                        <li>
+                          <a class="dropdown-item" href="./feature_product.html"
+                            >小資專區</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">銀髮專區</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">老饕品味</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">乎乾拉</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">懶人速食</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">開封即食</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">巷弄美食</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">海鮮吃到飽</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">慾望城市</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item top-navbar-item dropdown">
+                      <a
+                        class="nav-link top-navbar-txt dropdown-toggle"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        好物通報報
+                      </a>
+                      <ul class="dropdown-menu top-nav-dropdown-body p-0 pt-2">
+                        <li>
+                          <a class="dropdown-item" href="./good-product.html"
+                            >季節人氣商品</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">聯合行銷</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">食材大明星</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">免運通報</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item top-navbar-item dropdown">
+                      <a
+                        class="nav-link top-navbar-txt dropdown-toggle"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        食材學堂
+                      </a>
+                      <ul class="dropdown-menu top-nav-dropdown-body p-0 pt-2">
+                        <li>
+                          <a
+                            class="dropdown-item top-nav-dropdown-item"
+                            href="#"
+                            >海域特性</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item top-nav-dropdown-item"
+                            href="./school.html"
+                            >選購食材重點</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item top-nav-dropdown-item"
+                            href="#"
+                            >食材季節</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item top-nav-dropdown-item"
+                            href="#"
+                            >食材營養</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">烹飪建議</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item top-navbar-item dropdown">
+                      <a
+                        class="nav-link top-navbar-txt dropdown-toggle"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        安心買食材
+                      </a>
+                      <ul class="dropdown-menu top-nav-dropdown-body p-0 pt-2">
+                        <li>
+                          <a class="dropdown-item" href="./safey-license.html"
+                            >食安證照</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="./safey-celebrity.html"
+                            >名人推薦語錄</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="./safey-vedio.html"
+                            >影音多媒體</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item top-navbar-item">
+                      <a class="nav-link top-navbar-txt" href="./qa.html"
+                        >常見問題</a
+                      >
+                    </li>
+                    <li class="nav-item top-navbar-item">
+                      <a class="nav-link top-navbar-txt" href="./contact.html"
+                        >聯絡我們</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </section>
+      <div class="bread-list">
+        <ol class="pon-list">
+          <li><a href="./index.html">首頁</a></li>
+          <div class="pon-list-pic">
+            <img src="./src/web/icon/about-pon-arrow.svg" alt="arrow" />
+          </div>
+          <li><a href="#">會員專區</a></li>
+          <div class="pon-list-pic">
+            <img src="./src/web/icon/about-pon-arrow.svg" alt="arrow" />
+          </div>
+          <li><a href="#">修改會員資料</a></li>
+        </ol>
+      </div>
+      <!-- ===以上header===> -->
+      <section class="section-about">
+        <div class="section-about-main">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 col-md-12 col-lg-3 p-0">
+                <div class="menu-controL">
+                  <!-- 手機板選單 -->
+                  <div
+                    class="accordion menu-list-phone accordion-flush d-block w-100 d-md-block d-lg-none"
+                    id="rwd-main-menu "
+                  >
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button
+                          class="accordion-button collapsed menu-list-title position-relative"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseMain"
+                          aria-expanded="false"
+                          aria-controls="flush-collapseMain"
+                        >
+                          <div class="menu-fish-pic position-absolute">
+                            <img
+                              src="./src/web/icon/fish.png"
+                              alt="titleFish"
+                            />
+                          </div>
+                          <p>會員專區</p>
+                          <svg
+                            class="position-absolute"
+                            version="1.1"
+                            id="圖層_1"
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            x="0px"
+                            y="0px"
+                            viewBox="0 0 48 48"
+                            style="enable-background: new 0 0 48 48"
+                            xml:space="preserve"
+                          >
+                            <style type="text/css">
+                              .st0 {
+                                fill: #ffffff;
+                              }
+                            </style>
+                            <path
+                              class="st0"
+                              d="M43.4,15.5L24,34.8L4.7,15.5l2.3-2.3l17,17l17-17L43.4,15.5z"
+                            />
+                          </svg>
+                        </button>
+                      </h2>
+                      <div
+                        id="flush-collapseMain"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample"
+                      >
+                        <div
+                          class="accordion-body w-100 p-0"
+                          style="background-color: #f7f8f8"
+                        >
+                          <div
+                            class="accordion rounded-0 border-0"
+                            id="accordionExample "
+                          >
+                            <!-- 1 -->
+                            <a
+                              href="./shopcart.html"
+                              class="accordion-item menu-list-item p-0"
+                            >
+                              <h2 class="accordion-header">
+                                <button
+                                  class="accordion-button collapsed menu-list-button"
+                                  type="button"
+                                >
+                                  <p>購物車</p>
+                                </button>
+                              </h2>
+                            </a>
+                            <!-- 2 -->
+                            <a
+                              href="./member-point.html"
+                              class="accordion-item menu-list-item p-0"
+                            >
+                              <h2 class="accordion-header">
+                                <button
+                                  class="accordion-button collapsed menu-list-button"
+                                  type="button"
+                                >
+                                  <p>紅利點數</p>
+                                </button>
+                              </h2>
+                            </a>
+                            <!-- 3 -->
+                            <a
+                              href="./member-modify-info.html"
+                              class="accordion-item menu-list-item p-0"
+                            >
+                              <h2 class="accordion-header">
+                                <button
+                                  class="accordion-button collapsed menu-list-button"
+                                  type="button"
+                                >
+                                  <p>修改會員資料</p>
+                                </button>
+                              </h2>
+                            </a>
+                            <!-- 4 -->
+                            <a
+                              href="./member-order.html"
+                              class="accordion-item menu-list-item p-0"
+                            >
+                              <h2 class="accordion-header">
+                                <button
+                                  class="accordion-button collapsed menu-list-button"
+                                  type="button"
+                                >
+                                  <p>訂單查詢</p>
+                                </button>
+                              </h2>
+                            </a>
+                            <!-- 5 -->
+                            <a
+                              href="./member-modify-psw.html"
+                              class="accordion-item menu-list-item p-0"
+                            >
+                              <h2 class="accordion-header">
+                                <button
+                                  class="accordion-button collapsed menu-list-button"
+                                  type="button"
+                                >
+                                  <p>密碼修改</p>
+                                </button>
+                              </h2>
+                            </a>
+                            <!-- 6 -->
+                            <a
+                              href="#"
+                              class="accordion-item menu-list-item p-0"
+                            >
+                              <h2 class="accordion-header">
+                                <button
+                                  class="accordion-button collapsed menu-list-button"
+                                  type="button"
+                                >
+                                  <p>會員登出</p>
+                                </button>
+                              </h2>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- 桌機 -->
+                  <div
+                    class="menu-list menu-list-table d-none d-md-none d-lg-block flex-shrink-1"
+                  >
+                    <div class="accordion" id="accordionExample ">
+                      <div
+                        class="menu-list-title menu-list-item accordion-item position-relative"
+                      >
+                        <div class="menu-fish-pic position-absolute">
+                          <img src="./src/web/icon/fish.png" alt="titleFish" />
+                        </div>
+                        <h2>會員登出</h2>
+                      </div>
+                      <!-- 1 -->
+                      <a
+                        href="./shopcart.html"
+                        class="accordion-item menu-list-item d-block"
+                      >
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button menu-list-button collapsed position-relative"
+                            type="button"
+                          >
+                            <div class="menu-Smallfish-pic position-absolute">
+                              <img
+                                src="./src/web/icon/fish-h.png"
+                                alt="littleFish"
+                              />
+                            </div>
+                            <p>購物車</p>
+                          </button>
+                        </h2>
+                      </a>
+                      <!-- 2 -->
+                      <a
+                        href="./member-point.html"
+                        class="accordion-item menu-list-item d-block"
+                      >
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button menu-list-button collapsed position-relative"
+                            type="button"
+                          >
+                            <div class="menu-Smallfish-pic position-absolute">
+                              <img
+                                src="./src/web/icon/fish-h.png"
+                                alt="littleFish"
+                              />
+                            </div>
+                            <p>紅利點數</p>
+                          </button>
+                        </h2>
+                      </a>
+                      <!-- 3 -->
+                      <a
+                        href="./member-order.html"
+                        class="accordion-item menu-list-item d-block"
+                      >
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button menu-list-button collapsed position-relative"
+                            type="button"
+                          >
+                            <div class="menu-Smallfish-pic position-absolute">
+                              <img
+                                src="./src/web/icon/fish-h.png"
+                                alt="littleFish"
+                              />
+                            </div>
+                            <p>訂單查詢</p>
+                          </button>
+                        </h2>
+                      </a>
+                      <!-- 4 -->
+                      <a
+                        href="./member-modify-info.html"
+                        class="accordion-item menu-list-item d-block"
+                      >
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button menu-list-button collapsed position-relative"
+                            type="button"
+                          >
+                            <div class="menu-Smallfish-pic position-absolute">
+                              <img
+                                src="./src/web/icon/fish-h.png"
+                                alt="littleFish"
+                              />
+                            </div>
+                            <p>修改會員資料</p>
+                          </button>
+                        </h2>
+                      </a>
+                      <!-- 5 -->
+                      <a
+                        href="./member-modify-psw.html"
+                        class="accordion-item menu-list-item d-block"
+                      >
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button menu-list-button collapsed position-relative"
+                            type="button"
+                          >
+                            <div class="menu-Smallfish-pic position-absolute">
+                              <img
+                                src="./src/web/icon/fish-h.png"
+                                alt="littleFish"
+                              />
+                            </div>
+                            <p>密碼修改</p>
+                          </button>
+                        </h2>
+                      </a>
+                      <!-- 6 -->
+                      <a href="#" class="accordion-item menu-list-item d-block">
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button menu-list-button collapsed position-relative"
+                            type="button"
+                          >
+                            <div class="menu-Smallfish-pic position-absolute">
+                              <img
+                                src="./src/web/icon/fish-h.png"
+                                alt="littleFish"
+                              />
+                            </div>
+                            <p>會員登出</p>
+                          </button>
+                        </h2>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-12 col-lg-9">
+                <!-- 會員區塊 -->
+                <div class="section-member-point-main mb-5">
+                  <ul
+                    class="section-member-point-nav w-100 d-flex mt-sm-0 mt-5"
+                  >
+                    <li><a href="./member-point.html">紅利點數</a></li>
+                    <li><a href="./member-order.html">訂單查詢</a></li>
+                    <li>
+                      <a class="member-active" href="./member-modify-info.html"
+                        >修改資料</a
+                      >
+                    </li>
+                    <li><a href="./member-modify-psw.html">密碼修改</a></li>
+                    <li><a href="#">會員登出</a></li>
+                  </ul>
+                  <div class="member-change-profile">
+                    <h3>會員資料</h3>
+                    <p>電子信箱</p>
+                    <p>superlucky@gmail.com</p>
+                    <div
+                      class="section-member-register-double d-flex justify-content-between flex-wrap"
+                    >
+                      <div
+                        class="section-member-register-item d-flex flex-column"
+                      >
+                        <label class="mb-3 mt-2" for="register-name"
+                          >會員姓名</label
+                        >
+                        <input class="w-100" type="text" id="register-name" />
+                      </div>
+                      <div
+                        class="section-member-register-item d-flex flex-column"
+                      >
+                        <label class="mb-3 mt-2" for="register-tel"
+                          >手&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;機</label
+                        >
+                        <input class="w-100" type="tel" id="register-tel" />
+                      </div>
+                    </div>
+                    <div
+                      class="section-shopfile-box d-flex flex-wrap align-items-center justify-content-between w-100 mb-2 mt-2"
+                    >
+                      <div
+                        class="section-shopfile-item d-flex flex-wrap align-items-center justify-content-between"
+                      >
+                        <label for="customer-name"
+                          >地&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;址</label
+                        >
+                        <select class="mb-3" aria-label="Large select example">
+                          <option selected>請選擇縣市區域</option>
+                          <option value="1">台北</option>
+                          <option value="2">台中</option>
+                          <option value="3">台南</option>
+                        </select>
+                      </div>
+                      <div
+                        class="section-shopfile-item d-flex flex-wrap align-items-center justify-content-between"
+                      >
+                        <input style="transform: translateY(17%)" type="text" />
+                      </div>
+                    </div>
+                    <a
+                      href="#"
+                      class="member-change-profile-submit w-100 text-white mt-3"
+                    >
+                      修改
+                    </a>
+                  </div>
+                </div>
+                <!-- ............... -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ===以下footer===> -->
+      <footer>
+        <div class="footer-logo">
+          <div class="footer-logo-pic">
+            <img src="./src/web/icon/logo-f.svg" alt="logo" />
+          </div>
+        </div>
+        <div class="footer-right-box">
+          <div class="footer-nav">
+            <div class="footer-nav-left">
+              <ul>
+                <li><a href="./about.html">五朝港來源</a></li>
+                <li><a href="./news.html">最新消息</a></li>
+                <li><a href="./feature_product.html">特色風味</a></li>
+                <li><a href="./good-product.html">好物通報報</a></li>
+              </ul>
+              <ul>
+                <li><a href="./school.html">食材學堂</a></li>
+                <li><a href="./safey-license.html">安心買食材</a></li>
+                <li><a href="./qa.html">常見問題</a></li>
+                <li><a href="./pay-installment.html">購物指南</a></li>
+              </ul>
+            </div>
+            <div class="footer-nav-right">
+              <ul>
+                <li><a href="./contact.html">聯絡我們</a></li>
+                <li><a href="./login.html">會員權益與訂購</a></li>
+                <li><a href="./pay-privacy.html">隱私權政策</a></li>
+                <li><a href="./siteMap.html">網站地圖</a></li>
+              </ul>
+            </div>
+            <div class="footer-fanpage">
+              <!-- fb套件 -->
+              <div
+                class="fb-page"
+                data-href="https://www.facebook.com/5seafood/?locale=zh_TW"
+                data-width="300"
+                data-hide-cover="false"
+                data-show-facepile="false"
+              ></div>
+            </div>
+            <div class="footer-contact">
+              <a href="#">傳真：(06)-2636319</a>
+              <a href="#">客服：(06)-2635163</a>
+              <a target="_blank" href="https://goo.gl/maps/2Vps247YvLj7jx6H6"
+                >地址：台南市南區新義南路24號</a
+              >
+              <div class="footer-contact-copyright">
+                <p>
+                  copyright 2023 © 亞隴食材企業有限公司
+                  <span
+                    >Designed by
+                    <a class="renu-http" href="https://www.renu.com.tw/"
+                      >RENU</a
+                    >
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <div class="scroll-box">
+        <a
+          href="https://www.facebook.com/5seafood/?locale=zh_TW"
+          class="scroll-pic"
+        >
+          <img src="./src/web/icon/fb01.svg" alt="fb" />
+        </a>
+        <a href="https://line.me/R/ti/p/@pmz0011y" class="scroll-pic">
+          <img src="./src/web/icon/line01.svg" alt="line" />
+        </a>
+        <a href="https://www.instagram.com/umichen1/" class="scroll-pic">
+          <img src="./src/web/icon/ig01.svg" alt="ig" />
+        </a>
+        <a href="https://5-seafood.blogspot.com/" class="scroll-pic ju">
+          <img src="./src/web/icon/blog01.svg" alt="blog" />
+        </a>
+        <a href="#" class="scroll-pic" id="scrollBtn">
+          <img src="./src/web/icon/top.svg" alt="gotop" />
+        </a>
+      </div>
+    </div>
+    <!-- 底部 -->
+    <script src="./js/scroll-top.js"></script>
+    <!-- bs -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+      integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./js/scroll-top.js"></script>
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+    <div id="fb-root"></div>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v17.0"
+      nonce="91yZo8SA"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,493 @@
+.section-about-banner {
+  width: 100%;
+}
+.section-about-banner img {
+  width: 100%;
+  margin: auto;
+}
+.bread-list {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-right: 13.9%;
+  padding-left: 25%;
+  padding-top: 60px;
+  padding-bottom: 3%;
+}
+.bread-list-contact {
+  padding-left: 9%;
+}
+.pon-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+  padding-left: 1em;
+}
+
+.pon-list li a {
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+}
+.menu-list {
+  width: 63%;
+  margin-left: auto;
+  margin-right: 10%;
+}
+.pon-list-pic {
+  width: 6.1px;
+  transform: translateY(15%);
+}
+.pon-list-pic img {
+  width: 100%;
+  vertical-align: top;
+}
+
+.menu-list-title {
+  background: linear-gradient(
+    0deg,
+    rgba(39, 130, 187, 1) 0%,
+    rgba(93, 187, 188, 1) 100%
+  );
+  border-radius: 20px 20px 0px 0px !important;
+  padding-top: 14px !important;
+  padding-bottom: 14px !important;
+}
+.menu-list-title h2 {
+  font-size: 35px;
+  color: #fff;
+  text-indent: 2em;
+  font-weight: 400;
+}
+.menu-fish-pic {
+  width: 119px;
+  left: 6%;
+  top: 0;
+  transform: translateY(-60%);
+}
+.menu-fish-pic img {
+  width: 100%;
+  vertical-align: top;
+}
+.menu-Smallfish-pic {
+  width: 50px;
+  transform: translateY(-18%);
+  top: 20%;
+  left: 0;
+  display: none;
+}
+.menu-Smallfish-pic img {
+  width: 100%;
+  vertical-align: top;
+}
+.menu-list-button {
+  padding: 10px 20px 6px;
+}
+.menu-list-item {
+  padding: 6px 17px;
+  background-color: #f7f8f8;
+  transition: 0.3s;
+}
+.menu-list-item h2 button {
+  display: flex;
+  align-items: center;
+  background-color: #f7f8f8;
+}
+.menu-list-item h2 button p {
+  font-size: 24px;
+  color: #404142;
+  transition: 0.3s;
+}
+.menu-list-item :hover button {
+  background-color: #dcedee;
+}
+.menu-list-item :hover .menu-Smallfish-pic {
+  display: block;
+}
+.menu-list-item :hover button p {
+  transform: translateX(1.3em);
+}
+.menu-list2 {
+  margin-top: 126px;
+}
+.article-main {
+  width: 100%;
+  padding-right: 17.920353%;
+  padding-bottom: 2%;
+}
+.article-main h2 {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 0.8em;
+  margin-top: 1.2em;
+  letter-spacing: 0.08em;
+}
+.article-main ul {
+  padding-left: 1em;
+}
+.article-main h3 {
+  font-size: 24px;
+  margin-bottom: 1em;
+}
+.article-main p,
+.article-main ul li p {
+  font-size: 20px;
+  letter-spacing: 0.6px;
+  line-height: 1.6;
+  color: #404142;
+}
+.article-main p,
+.article-main ul li {
+  margin-bottom: 0.8em;
+  list-style-type: disc;
+}
+.article-pic {
+  width: 60%;
+}
+.article-pic img {
+  width: 100%;
+  vertical-align: top;
+}
+.accordion-item {
+  text-decoration: none;
+}
+.article-main h2:first-child {
+  margin-top: 0;
+}
+/* safey-license-css */
+
+.safey-license-main {
+  width: 83.3333%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 3%;
+}
+.safey-license-item {
+  width: 24%;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+.safey-license-item p {
+  font-size: clamp(16px, 50vw, 24px);
+  text-align: center;
+  padding: 0.8em 0;
+
+  color: #404142;
+}
+.safey-license-item-pic {
+  width: 100%;
+}
+.safey-license-item-pic img {
+  width: 100%;
+  vertical-align: top;
+}
+/* safey-celebrity css */
+.safey-celebrity-main {
+  width: 83.33333%;
+}
+/* .safey-celebrity-video-main{
+
+} */
+.safey-celebrity-item {
+  text-decoration: none;
+}
+.safey-celebrity-pic {
+  width: 100%;
+  border-radius: 25px;
+  overflow: hidden;
+}
+.safey-celebrity-pic img {
+  width: 100%;
+  vertical-align: top;
+}
+.safey-celebrity-item h3 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.3;
+  color: black;
+  margin-bottom: 1.2em;
+  margin-top: 1.2em;
+}
+.safey-celebrity-item p {
+  color: #404142;
+  font-size: 20px;
+  margin-bottom: 1em;
+  letter-spacing: 0.03em;
+  line-height: 1.5;
+}
+.safey-celebrity-date span {
+  font-size: 20px;
+  color: #404142;
+  margin-right: 0.5em;
+}
+/* safey-vedio */
+.safey-celebrity-video {
+  width: 100%;
+  aspect-ratio: 560/315;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.safey-celebrity-pic {
+  border-radius: 20px;
+  overflow: hidden;
+}
+.safey-celebrity-video iframe {
+  vertical-align: top;
+  width: 100%;
+  height: 100%;
+}
+.video-txt {
+  width: 91px;
+  bottom: 16px;
+  left: 16px;
+  font-size: 18px;
+  align-items: center;
+  padding: 0.6em 0;
+  background-color: #f7f8f8;
+  color: #404142;
+  text-align: center;
+}
+.video-txt span {
+  margin: auto;
+}
+.video-txt svg {
+  margin-right: 0.3em;
+  transform: translateY(-1px);
+}
+.safey-video-inner h3 {
+  font-size: 40px;
+}
+.safey-video-inner span,
+.safey-video-inner p {
+  font-size: 20px;
+}
+.safey-video-inner p {
+  margin-bottom: 3.2em;
+}
+.section-qa-menu {
+  border-top: 1px solid rgb(177, 174, 174);
+}
+
+.section-qa-main {
+  width: 83.3333333%;
+}
+
+.section-qa-main p {
+  font-size: 48px;
+  margin-bottom: 0.8em;
+  font-weight: 500;
+}
+.qa-title-button {
+  border-bottom: 1px solid rgb(177, 174, 174);
+  font-size: 24px;
+  padding: 1.5em;
+  color: #404142;
+}
+/* 風琴下拉 */
+.accordion-item {
+  background-color: #f7f8f8;
+}
+
+.qa-title-body p {
+  font-size: 20px;
+  margin-bottom: 1em;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #404142;
+}
+.section-qa-cards-txt,
+.section-qa-cards-main {
+  width: 83.3333%;
+}
+.section-qa-cards-txt {
+  font-size: 48px;
+  font-weight: 500;
+}
+.section-qa-cards-item {
+  width: 24%;
+  aspect-ratio: 269/189;
+  display: block;
+}
+.section-qa-cards-item:nth-child(1) {
+  background-image: url(../src/web/QA/line.png);
+  background-size: cover;
+}
+.section-qa-cards-item:nth-child(2) {
+  background-image: url(../src/web/QA/facebook.png);
+  background-size: cover;
+}
+.section-qa-cards-item:nth-child(3) {
+  background-image: url(../src/web/QA/ig.png);
+  background-size: cover;
+}
+.section-qa-cards-item:nth-child(4) {
+  background-image: url(../src/web/QA/contact.png);
+  background-size: cover;
+}
+/* hover */
+.section-qa-cards-item:nth-child(1):hover {
+  background-image: url(../src/web/QA/line-h.png);
+  background-size: cover;
+}
+.section-qa-cards-item:nth-child(2):hover {
+  background-image: url(../src/web/QA/facebook-h.png);
+  background-size: cover;
+}
+.section-qa-cards-item:nth-child(3):hover {
+  background-image: url(../src/web/QA/ig-h.png);
+  background-size: cover;
+}
+.section-qa-cards-item:nth-child(4):hover {
+  background-image: url(../src/web/QA/contact-h.png);
+  background-size: cover;
+}
+
+@media (width<1400px) {
+  .menu-list {
+    width: 70%;
+  }
+}
+@media (width<992px) {
+  /* 麵包削 */
+  .bread-list {
+    width: 90%;
+    margin: auto;
+    padding-left: 0;
+    padding-top: 1em;
+    margin-bottom: 2em;
+    padding-right: 0;
+    justify-content: center;
+  }
+  .pon-list {
+    justify-content: center;
+  }
+  .pon-list li a {
+    font-size: 16px;
+    line-height: 1.3;
+  }
+  .menu-controL {
+    width: 80%;
+    margin: auto;
+    padding-top: 40px;
+  }
+  .menu-fish-pic {
+    width: 80px;
+    left: 10%;
+    top: 0;
+    transform: translateY(-50%);
+  }
+  .menu-list-title p {
+    font-size: 24px;
+    color: #fff !important;
+    margin-left: auto;
+    letter-spacing: 0.08em;
+  }
+  /* .menu-list-title svg {
+    right: 30px;
+    top: 25%;
+  } */
+  .menu-list-item h2 button p {
+    font-size: 20px;
+  }
+  .menu-list-item {
+    padding: 3px 17px;
+  }
+  .menu-list-item :hover button p {
+    transform: translateX(0);
+  }
+  .menu-list-item :hover button {
+    background-color: #f7f8f8;
+  }
+  .menu-list-title svg {
+    transform: translateY(-6%);
+    width: 30px;
+    top: 25%;
+    right: 3%;
+  }
+  .article-main h2 {
+    font-size: 24px;
+    line-height: 1.3;
+  }
+  .article-main h3 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .article-main p,
+  .article-main ul li p {
+    font-size: 16px;
+  }
+  .article-main {
+    width: 80%;
+    margin: auto;
+    padding-right: 0%;
+    padding-top: 1.5em;
+    padding-bottom: 2%;
+  }
+  .article-pic {
+    width: 100%;
+  }
+  /* safey-license-css */
+
+  .safey-license-main {
+    width: 87%;
+    margin: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .safey-license-item {
+    width: 49%;
+    margin-bottom: 10px;
+  }
+  .safey-license-item p {
+    font-size: 16px;
+  }
+  .safey-celebrity-main {
+    margin: auto;
+    padding-top: 5%;
+  }
+
+  .safey-celebrity-item h3 {
+    font-size: 20px;
+  }
+  .safey-celebrity-date span {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .safey-celebrity-item p {
+    font-size: 16px;
+  }
+  /* Q&A */
+  .section-qa-cards-txt,
+  .section-qa-main {
+    width: 83%;
+    margin: auto;
+  }
+  .section-qa-main p {
+    font-size: 24px;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+  }
+  .qa-title-body p,
+  .qa-title-button {
+    font-size: 16px;
+  }
+  .section-qa-cards-item {
+    width: 48.5%;
+    margin-bottom: 9px;
+  }
+  .section-qa-cards-main {
+    width: 87%;
+    margin: auto;
+  }
+  .section-qa-cards-txt {
+    font-size: 24px;
+  }
+}
+.section-qa-cards {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}

@@ -1,0 +1,459 @@
+.shopCart-step-pic img,
+.shopCart-step-pic-arrow img {
+  width: 100%;
+  vertical-align: top;
+}
+.shopCart-step-item {
+  width: 151px;
+}
+.shopCart-step-item p {
+  font-size: clamp(16px, 50vw, 24px);
+  text-align: center;
+  margin-top: 0.5em;
+}
+.shopCart-step-pic-arrow {
+  width: 28.52px;
+  transform: translateY(25%);
+}
+.shopCart-step-picbox-main {
+  width: fit-content;
+}
+.section-pay-methods,
+.section-shopfile,
+.section-cart-btns,
+.money-total-content,
+.shopCart-step-picbox {
+  width: 83.3333%;
+}
+/* 購物車設定 */
+.shopcat-content-bar-main {
+  width: 100%;
+}
+.shopcat-content-bar {
+  width: 83.33333%;
+  display: block;
+  padding: 0.8em 1.5em;
+  background: linear-gradient(
+    90deg,
+    rgba(39, 130, 187, 1) 0%,
+    rgba(93, 187, 188, 1) 70%,
+    rgba(39, 130, 187, 1) 89%
+  );
+  border-radius: 6px;
+  margin-top: 3em;
+}
+.shopcat-content-bar tr td {
+  width: 111px;
+  font-size: 20px;
+  color: #ffff;
+  text-align: center;
+}
+.shopcat-content-item {
+  width: 83.3333%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #c4c1c1;
+}
+.shopcat-content-item-picBox {
+  width: 40%;
+}
+.shopcat-content-item-pic {
+  width: 158.2px;
+  width: clamp(128px, 50vw, 158.2px);
+}
+.shopcat-content-item-picBox-txt {
+  padding: 1em;
+}
+.shopcat-content-item-picBox-txt p {
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  line-height: 1.3;
+}
+.shopcat-content-total span,
+.shopcat-content-item-picBox-txt span {
+  font-size: 14px;
+}
+.shopcat-content-item-price-quantity {
+  width: 35%;
+}
+.shopcat-content-total p,
+.shopcat-price-quantity-txt p {
+  font-size: 20px;
+  color: red;
+  font-weight: 500;
+  display: flex;
+}
+.shopcat-content-total p::before,
+.shopcat-price-quantity-txt p::before {
+  display: block;
+  content: "NT$";
+  font-size: 20px;
+  font-weight: 500;
+}
+.shopcat-content-total {
+  width: 25%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 4%;
+}
+.shopcat-content-total p {
+  font-size: 20px;
+}
+.shopcat-content-del {
+  right: 16%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.howmuch-section h5 {
+  font-size: 14px;
+  margin-top: 18px;
+  margin-bottom: 10px;
+}
+.checkout-summary {
+  width: 83.333%;
+  background-color: #f7f8f8;
+  padding: 1.5em;
+}
+.checkout-summary p,
+.checkout-summary .form-check-label {
+  font-size: 20px;
+}
+.checkout-summary p {
+  margin-bottom: 1em;
+}
+.checkout-summary .form-check-label,
+.checkout-summary .form-check-input {
+  margin-right: 0.8em;
+}
+.checkout-summary .form-check-input {
+  transform: translateY(-2px);
+  border: 1px solid #101010;
+}
+.checkout-summary-check .form-check-input:checked {
+  background-color: #0f0f0f;
+  border-color: #101010;
+}
+.checkout-summary-check .form-check-input:focus {
+  border-color: none;
+  box-shadow: none;
+}
+.money-total-box {
+  width: 33%;
+  margin-left: auto;
+}
+.money-total-item p {
+  font-size: 20px;
+  margin-bottom: 1em;
+}
+.money-total-item span {
+  font-size: 20px;
+  font-weight: 500;
+}
+.money-total-item span::before {
+  content: "NT$";
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+}
+.section-cart-btns-main a {
+  width: 32%;
+  font-size: 20px;
+  text-decoration: none;
+  color: #ffff;
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+  background-color: #2671aa;
+  text-align: center;
+  border-radius: 6px;
+  transition: 0.3s ease-in-out;
+}
+
+/*^^ 購物車設定 ^^ */
+/* 訂購表單 */
+/* 訂購人資料 */
+.section-shopfile h3 {
+  font-size: 40px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.section-shopfile-item label {
+  font-size: 20px;
+  margin-right: 0.5em;
+  /* width: 100%; */
+  margin-bottom: 0.2em;
+}
+.section-shopfile-item select,
+.section-shopfile-item input {
+  height: 50px;
+  flex-grow: 1;
+  border-radius: 6px;
+  border: 1px solid #ced4da;
+  background-color: #f7f8f8;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.section-shopfile-item select {
+  /* width: 100%; */
+  transform: translateY(4px);
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  /* 背景圖片可以是自定義的箭頭圖片 */
+  background-image: url("../src/web/icon/down-arrow.png");
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: 28px auto;
+  padding-right: 30px !important;
+}
+.section-shopfile-item {
+  width: 49%;
+}
+.section-shopfile {
+  padding-bottom: 30px;
+}
+.section-shopfile-title {
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  margin-bottom: 1em;
+}
+.section-shopfile-title-input:checked {
+  background-color: #0f0f0f;
+  border-color: #101010;
+}
+.section-shopfile-title-input:focus {
+  border-color: none;
+  box-shadow: none;
+}
+.section-shopfile-title input {
+  margin-right: 0.6em;
+  border-color: #101010;
+  transform: translateY(-20%);
+}
+/* .section-shopfile-btns {
+  
+} */
+.section-shopfile-btns-button {
+  text-decoration: none;
+  color: #ffff;
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+  background-color: #2671aa;
+  text-align: center;
+  border-radius: 6px;
+  font-size: 20px;
+  transition: 0.3s ease;
+}
+.section-shopfile-btns-button:hover {
+  background-color: #4d95d6;
+}
+.section-pay-methods-item {
+  margin-bottom: 0.8em;
+}
+.section-pay-methods-item p,
+.section-pay-methods-item label {
+  font-size: 20px;
+}
+.section-pay-methods-item label {
+  color: #ffff;
+  text-align: center;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+  width: 320px;
+  background-color: #2671aa;
+  border-radius: 6px;
+  transition: 0.3s ease-in-out;
+}
+.section-pay-methods-item p {
+  margin-left: 32px;
+}
+.section-pay-methods-item input {
+  margin-right: 32px;
+  border-color: #101010;
+}
+.section-pay-submit-btn {
+  background-color: #2671aa;
+  text-decoration: none;
+  text-align: center;
+  padding: 0.8em;
+  border-radius: 6px;
+  font-size: 20px;
+  transition: 0.3s ease-in-out;
+}
+.section-cart-btns-main a:hover,
+.section-pay-methods-item label:hover,
+.section-pay-submit-btn:hover {
+  background-color: #4d95d6;
+}
+.section-pay-methods-item span {
+  font-size: 20px;
+}
+
+@media (992px>width) {
+  .shopCart-step-pic-arrow {
+    width: 15.6px;
+    transform: translateY(25%);
+  }
+  .shopCart-step-item {
+    width: 82.58px;
+  }
+  /* 購物車設定 */
+
+  .phone-none {
+    display: none;
+  }
+  .phone-w100 {
+    width: 100%;
+  }
+  /*^^ 自訂組件 ^^*/
+  .shopCart-step-picbox {
+    width: 100%;
+  }
+  .shopcat-content-item-picBox {
+    width: 100%;
+  }
+  .shopcat-content-item-price-quantity {
+    width: 100%;
+  }
+  .shopcat-price-quantity-txt {
+    width: 100%;
+    order: 1;
+    justify-content: space-between;
+  }
+  .shopcat-content-total span,
+  .shopcat-price-quantity-txt span {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .shopcat-price-quantity-txt p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .shopcat-content-total {
+    width: 100%;
+    justify-content: space-between;
+    padding-right: 0;
+  }
+  .shopcat-content-item-picBox-txt p {
+    font-size: 16px;
+  }
+  .shopCart-step-picbox p {
+    font-size: 16px;
+  }
+  .section-pay-methods,
+  .section-shopfile,
+  .section-cart-btns,
+  .money-total-content,
+  .money-total-box,
+  .shopcat-content-bar-main,
+  .checkout-summary,
+  .shopcat-content-item {
+    width: 87%;
+    margin: auto;
+  }
+  .shopcat-content-bar {
+    width: 100%;
+  }
+  .shopcat-content-item-picBox-txt {
+    padding-right: 4em;
+  }
+  .shopcat-content-del {
+    right: 7%;
+    top: 20%;
+    transform: translateY(0);
+  }
+  .shopcat-content-total p::before,
+  .shopcat-price-quantity-txt p::before {
+    display: block;
+    content: "NT$";
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .shopcat-content-total p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .section-pay-submit-btn,
+  .section-pay-methods-item p,
+  .section-pay-methods-item label,
+  .checkout-summary p,
+  .checkout-summary .form-check-label {
+    font-size: 16px;
+  }
+  .money-total-item span {
+    font-size: 16px;
+  }
+  .money-total-item span::before {
+    font-size: 16px;
+  }
+  .section-cart-btns-main a {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 0.8em;
+  }
+  .section-shopfile-item {
+    width: 100%;
+  }
+
+  .section-shopfile h3 {
+    font-size: 24px;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+  }
+  .section-shopfile-item label {
+    font-size: 16px;
+    margin-bottom: 0.6em;
+  }
+  .section-shopfile-item select,
+  .section-shopfile-item input {
+    width: 100%;
+    margin-bottom: 0.6em;
+  }
+  .section-cart-btns-main a {
+    font-size: 16px;
+  }
+  .section-shopfile-btns-button {
+    font-size: 16px;
+  }
+  .money-total-item p {
+    font-size: 16px;
+  }
+  .section-pay-methods-item label {
+    width: 254px;
+    padding: 1.2em 0;
+  }
+  .section-pay-methods-item p {
+    width: 100%;
+    margin-top: 0.6em;
+    padding-left: 1em;
+    line-height: 1.3;
+  }
+  .section-pay-methods-item span {
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    padding-left: 3.1em;
+    margin-top: 0.6em;
+  }
+  /* ^^購物車^^ */
+  .section-shopfile-item label {
+    width: 100%;
+    font-size: 16px;
+  }
+  .shopcat-content-bar {
+    margin-top: 1em;
+  }
+}
+/* @media (415>width) {
+  .phone-none {
+    display: none;
+  }
+} */
+.form-check-input:checked {
+  background-color: #0f0f0f;
+  border-color: #101010;
+}
+.form-check-input:focus {
+  border-color: none !important;
+  box-shadow: none !important;
+}
